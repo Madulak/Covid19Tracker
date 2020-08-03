@@ -1,0 +1,19 @@
+.Map {
+    height: 30rem;
+    width: 95%;
+    background-color: rgb(150, 200, 230);
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.Map .MapContainer {
+    height: 95%;
+    width: 98%;
+    margin: auto;
+    padding-top: 1%;
+    background-color: rgb(155, 206, 206);
+}
+
+.Map .leaflet-container {
+    height: 100%;
+}

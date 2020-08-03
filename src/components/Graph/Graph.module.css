@@ -1,0 +1,30 @@
+.Graph {
+    width: 92%;
+    padding: 10px 10px;
+    background-color: rgb(111, 207, 203);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.Graph .Countries {
+    overflow-y: scroll;
+    height: 20rem;
+    width: 100%;
+    
+}
+
+.Graph .GraphStyle {
+    padding: 10px;
+    background-color: rgb(111, 207, 203);
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.Graph tr:nth-of-type(odd) {
+    background-color: lightblue;
+}
+
+.Graph tr:nth-of-type(even) {
+    background-color: rgb(163, 190, 224);
+}

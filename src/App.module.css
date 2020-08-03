@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  background-color: rgb(208, 230, 217);
+}
+
+.App .First {
+  flex: 2.5;
+}
+
+.App .Second {
+  flex: 1
+}
