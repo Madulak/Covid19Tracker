@@ -89,13 +89,14 @@ const App = React.memo(() => {
       <div className={classes.First}>
        <Covid19 dropdown={dropdown} loading={loading} countries={countries} dataPoint={worlddata ? worlddata : countrydata} /> 
         <Map  countries={countries} loading={loading} mapZoom={mapZoom} mapCenter={mapCenter} />
+        <span>Api used from  <a href="https://corona.lmao.ninja/docs/#/"></a></span>
       </div>
 
       <div className={classes.Second}>
           <Countrybycase loading={loadingGraph} tableData={countries}/>
           <Graph   />
       </div>
-        <span>Api used from  <a href="https://corona.lmao.ninja/docs/#/"></a></span>
+        
     </div>
   );
 })
