@@ -95,7 +95,7 @@ const App = React.memo(() => {
           <Countrybycase loading={loadingGraph} tableData={countries}/>
           <Graph   />
       </div>
-        
+        <span>Api used from  <a href="https://corona.lmao.ninja/docs/#/"></a></span>
     </div>
   );
 })
